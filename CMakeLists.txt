@@ -6,7 +6,7 @@ enable_testing()
 
 add_subdirectory(./third-party/DPP/)
 
-add_executable(SaliniBot main.cpp)
+add_executable(SaliniBot src/main.cpp)
 target_link_libraries(SaliniBot dpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
